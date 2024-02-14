@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* padding: 20px; */
+    background-color: rgb(22, 22, 23);
+    color: rgba(255, 255, 255, .8);
+    justify-content: space-evenly;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: -100;
+    padding-right: 120px ;
+    padding-left: 180px;
+    
+    
+}
+
+.Heading{
+    flex-direction: column;
+    background-size: cover;
+    height: 940px;
+    background-position: center;
+    display: flex;
+    color: #f5f5f7;
+    align-items: center;
+    padding-top: 2rem;
+    background-image:url(./images/bg.images\ 1.jpg);
+    background-size: 3008px 624px;
+    background-repeat: no-repeat;
+    margin-top: -160px;
+
+}
+
+.Header1{
+    font-size: 50px;
+    line-height: 1.125;
+    font-weight: 700;
+    letter-spacing: .004em;
+    margin-top: 200px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.Header2{
+    font-size: 25px;
+    line-height: 1.21053;
+    font-weight: 400;
+    padding-top: 12px;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.Header-Links{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    direction: ltr;
+    color: rgba(41, 151, 255);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.23536;
+    font-weight: 700;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.head1{
+    flex-direction: column;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    color: #1d1d1f;
+    align-items: center;
+    padding-top: 2rem;
+    background-image:url(./images/bg\ 9.jpg);
+    background-size: 1350px 604px;
+    background-repeat: no-repeat;
+    margin-top: -170px;
+    /* background-color: black; */
+    /* width: 100%; */
+}
+
+.sec-head1{
+    font-size: 50px;
+    line-height: 1.125;
+    font-weight: 700;
+    letter-spacing: .004em;
+    margin-top: 400px;
+    margin-left: 150px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.sec-head2{
+    font-size: 28px;
+    margin-left: 30px;
+    line-height: 1.21053;
+    font-weight: 400;
+    padding-top: 12px;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.sec-header-links{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    direction: ltr;
+    color: rgba(41, 151, 255);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.23536;
+    font-weight: 700;
+    margin-left: 150px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            
+}
+
+.head2{
+    flex-direction: column;
+    background-size: cover;
+    height: 625px;
+    background-position: center;
+    display: flex;
+    color: #1d1d1f;
+    align-items: center;
+    padding-top: 2rem;
+    background-image:url(./images/bg\ 2.jpg);
+    background-size: 1260px 600px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    /* background-color: rgb(255, 0, 0); */
+    /* width: 100%; */
+}
+
+.sec-head3{
+    font-size: 50px;
+    line-height: 1.125;
+    font-weight: 700;
+    letter-spacing: .004em;
+    margin-top: 420px;
+    margin-left: 80px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.sec-head4{
+    font-size: 28px;
+    margin-left: 70px;
+    line-height: 1.21053;
+    font-weight: 400;
+    padding-top: 12px;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.sec-header-links2{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    direction: ltr;
+    color: rgba(41, 151, 255);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.23536;
+    font-weight: 700;
+    margin-left: 250px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+.head3{
+    flex-direction: column;
+    background-size: cover;
+    height: 525px;
+    background-position: center;
+    display: flex;
+    color: #1d1d1f;
+    align-items: center;
+    padding-top: 2rem;
+    background-image:url(./images/bg\ 4.jpg);
+    background-size: 610px 500px;
+    background-repeat: no-repeat;
+    margin-top: -12px;
+    /* background-color: black; */
+    /* padding: -500px; */
+    width: 50%;
+}
+
+.sec-head5{
+    font-size: 50px;
+    line-height: 1.125;
+    font-weight: 700;
+    letter-spacing: .004em;
+    margin-top: 10px;
+    margin-left: 170px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.sec-head6{
+    font-size: 28px;
+    margin-left: 50px;
+    line-height: 1.21053;
+    font-weight: 400;
+    /* padding-top: 10px; */
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.sec-header-links3{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    direction: ltr;
+    color: rgba(41, 151, 255);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.23536;
+    font-weight: 700;
+    margin-left: 180px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.head4{
+    flex-direction: column;
+    background-size: cover;
+    height: 525px;
+    background-position: center;
+    display: flex;
+    color: #1d1d1f;
+    align-items: center;
+    padding-top: 2rem;
+    background-image:url(./images/bg\ 3.jpg);
+    background-size: 620px 200px;
+    background-repeat: no-repeat;
+    margin-top: -525px;
+    margin-left: 50%;
+    background-color: black;
+    /* padding: -500px; */
+    width: 50%;
+}
+
+.sec-head7{
+    font-size: 50px;
+    line-height: 1.125;
+    font-weight: 700;
+    letter-spacing: .004em;
+    margin-top: 10px;
+    color: white;
+    margin-left: 130px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.sec-head8{
+    font-size: 1rem;
+    color: rgb(235, 84, 84);
+    line-height: 1.125;
+    font-weight: 400;
+    letter-spacing: .004em;
+    /* margin-top: 10px; */
+    margin-left: 170px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+.sec-head9{
+    font-size: 25px;
+    margin-left: 50px;
+    line-height: 1.21053;
+    font-weight: 400;
+    /* padding-top: 10px; */
+    color: white;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.sec-header-links4{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    direction: ltr;
+    color: rgba(41, 151, 255);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.23536;
+    font-weight: 700;
+    margin-left: 100px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+.terms-condition{
+    background-color:#f5f5f7;
+    color: #959ca6;
+    padding: 17px 20px 11px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    display: block;
+    letter-spacing: normal;
+    padding-right: 10px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 20px;
+}
+
+.Trade-In{
+    flex-direction: column;
+    background-size: cover;
+    max-width: 50%;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    color:black;
+    align-items: center;
+    text-align: center;
+    display: block;
+    background-image: url("./Assets/iphone_tradein_promo__d5au3rkw5kuq_large.jpg");
+    background-size: 70rem;
+    margin-top: 20px;
+    width:50%
+    
+}
+
+.Trade{
+    padding-top: 50px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 550;
+    opacity: 90%;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.Trades{
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    opacity: 80%;
+}
+
+.Trades-link{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    color:#060607;
+    display: inline-flex;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.NEWS{
+    flex-direction: column;
+    background-size: cover;
+    max-width: 50%;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    color:black;
+    align-items: center;
+    text-align: center;
+    display: block;
+    background-image: url("./Assets/promo_apple_news_womens_world_cup__f72j3grkhguq_large.jpg");
+    background-size: 70rem;
+    margin-top: 20px;
+    width:50%
+}
+
+.NEWS1{
+    padding-top: 30px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 550;
+    opacity: 90%;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.news2{
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 100;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    opacity: 80%;
+}
+
+.news3{
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    opacity: 80%;
+}
+
+.news-link{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    color:#060607;
+    display: inline-flex;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.upper-div{
+    background-color: #f5f5f7;
+    padding-top: 2rem;
+
+}
+
+
+.S-L{
+    margin-left: 12%;
+    font-size: 0.8rem;
+    
+}
+
+.sub-cat{
+    list-style: none;
+    margin-left: 12%;
+    padding-top: 2%;
+    cursor: pointer;
+    line-height: 1.5rem;
+    color: #424245;
+    font-size: 0.7rem;
+    padding-bottom: 25px;
+}
+
+.Apple-Wallet{
+    margin-left: 12%;
+    font-size: 0.8rem; 
+}
+
+.Account{
+    margin-left: 29%;
+    font-size: 0.8rem;
+    
+}
+
+.mainheader-footer2{
+    margin-top: -41%;
+}
+
+.Entertainment{
+    margin-left: 29%;
+    font-size: 0.8rem;
+}
+.sub-cat1{
+    list-style: none;
+    margin-left: 29%;
+    padding-top: 2%;
+    cursor: pointer;
+    line-height: 1.5rem;
+    color: #424245;
+    font-size: 0.7rem;
+    padding-bottom: 25px;
+}
+
+.Apple-Store{
+    margin-left: 46%;
+    font-size: 0.8rem;
+}
+
+.mainheader-footer4{
+    margin-top: -35%;
+}
+
+.sub-cat2{
+    list-style: none;
+    margin-left: 46%;
+    padding-top: 2%;
+    cursor: pointer;
+    line-height: 1.5rem;
+    color: #424245;
+    font-size: 0.7rem;
+    padding-bottom: 25px;
+}
+
+.mainheader-footer5{
+    margin-top: -27.5%;
+}
+.For-Business{
+    margin-left: 61%;
+    font-size: 0.8rem;
+}
+
+.sub-cat3{
+    list-style: none;
+    margin-left: 61%;
+    padding-top: 2%;
+    cursor: pointer;
+    line-height: 1.5rem;
+    color: #424245;
+    font-size: 0.7rem;
+    padding-bottom: 25px;
+}
+
+.For-Education{
+    margin-left: 61%;
+    font-size: 0.8rem;
+}
+
+.For-Healthcare{
+    margin-left: 61%;
+    font-size: 0.8rem;
+}
+
+.For-Government{
+    margin-left: 61%;
+    font-size: 0.8rem;
+}
+
+.mainheader-footer9{
+    margin-top: -42%;
+}
+
+.sub-cat4{
+    list-style: none;
+    margin-left: 80%;
+    padding-top: 2%;
+    cursor: pointer;
+    line-height: 1.5rem;
+    color: #424245;
+    font-size: 0.7rem;
+    padding-bottom: 25px;
+}
+
+.Apple-Values{
+    margin-left: 80%;
+    font-size: 0.8rem;
+}
+
+.Apple-About{
+    margin-left: 80%;
+    font-size: 0.8rem;
+}
+
+.last-para{
+    
+    padding-top: 60px;
+    background-color: #f5f5f7;
+}
+
+.underline-footer{
+    margin-right: 100%;
+}
+
+.last-para1{
+    margin-left: 12%;
+    font-size: 0.8rem;
+}
+
+.sec-last{
+    display: flex;
+    padding-bottom: 60px;
+    background-color: #f5f5f7;
+    font-size: 0.8rem;
+}
+
+.sec-last1{
+    margin-left: 12%;
+    font-size: 0.8rem;
+}
+
+.PP{
+    margin-left: 4%;
+}
+.TOU{
+    margin-left: 2%;
+}
+
+.SR{
+    margin-left: 2%;
+}
+
+.Legal{
+    margin-left: 2%;
+}
+
+.SM{
+    margin-left: 2%;
+}
+
+.US{
+    margin-left: 8%;
+}
+
+
+@media screen and (max-width:1024px) {
+    #navbar{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
